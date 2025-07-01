@@ -1,0 +1,95 @@
+{
+	"version": 1,
+	"settings": {
+		"border": {
+			"customColor": false,
+			"customRadius": false,
+			"customStyle": false,
+			"customWidth": false
+		},
+		"color": {
+			"duotone": [],
+			"gradients": [],
+			"link": true,
+			"defaultPalette": false,
+			"palette": [
+				{
+					"name": "Padrão de texto",
+					"slug": "default",
+					"color": "var(--lt-color-text-primary)"
+				},
+				{
+					"name": "Cor principal",
+					"slug": "primary",
+					"color": "var(--lt-color-primary)"
+				},
+				{
+					"name": "Cor secundária",
+					"slug": "secondary",
+					"color": "var(--lt-color-secondary)"
+				},
+				{
+					"name": "Cor de fundo",
+					"slug": "background",
+					"color": "var(--lt-color-bg-secondary)"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "var(--lt-content-max-width)",
+			"wideSize": "1110px"
+		},
+		"shadow": {
+			"defaultPresets": false
+		},
+		"spacing": {
+			"margin": false,
+			"padding": false
+		},
+		"typography": {
+			"customLineHeight": false,
+			"customFontSize": false,
+			"dropCap": false,
+			"fontFamilies": [],
+			"fontSizes": [
+				{
+					"name": "Pequena",
+					"slug": "small",
+					"size": "var(--lt-font-size-small)"
+				},
+				{
+					"name": "Padrão",
+					"slug": "medium",
+					"size": "var(--lt-font-size-medium)"
+				},
+				{
+					"name": "Grande",
+					"slug": "large",
+					"size": "var(--lt-font-size-large)"
+				}
+			]
+		},
+		"blocks": {
+			"core/button": {
+				"border": {
+					"radius": false
+				},
+				"color": {
+					"background": false,
+					"text": false
+				},
+				"typography": {
+					"fontFamilies": [],
+					"fontSizes": [],
+					"fontStyle": false,
+					"fontWeight": false,
+					"letterSpacing": false,
+					"lineHeight": false,
+					"textAlign": false,
+					"textDecoration": false,
+					"textTransform": false
+				}
+			}
+		}
+	}
+}
